@@ -1,0 +1,30 @@
+
+body {
+    background-image: url("https://www.makingjoyandprettythings.com/wp-content/uploads/2019/06/Max-Foyer-1024x682.jpg") ;
+    background-repeat: no-repeat;
+    
+    background-color: gray;
+    background-position-x: center;
+    
+}
+
+.pageHeader {
+    border: 1px dotted coral;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+    color: rgb(6, 104, 74);
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Evenly space the child elements */
+    color: rgb(255, 107, 53);
+    
+}
+
+.shop {
+    flex-basis: 25%;
+    border: 1px dotted rgb(6, 104, 74);
+}
